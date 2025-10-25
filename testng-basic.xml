@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Basic Tests Suite">
+    <test name="Basic Calculation Tests">
+        <groups>
+            <run>
+                <include name="basic"/>
+                <include name="calculation"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.bmi.BMICalculatorTest"/>
+        </classes>
+    </test>
+</suite>
